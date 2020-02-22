@@ -342,11 +342,16 @@
       
         
           
-            <h3 id="ingress-controller-如何工作"><a href="#ingress-controller-如何工作" class="headerlink" title="ingress controller 如何工作"></a>ingress controller 如何工作</h3><p>这篇文档的目的是解释 nginx ingress 控制器是如何工作的，特别是 nginx 模型的构建以及为什么需要它</p>
-<h3 id="Nginx-配置"><a href="#Nginx-配置" class="headerlink" title="Nginx 配置"></a>Nginx 配置</h3><p>nginx ingress 控制器目标是组织 nginx 配置文件， 当 nginx 的配置文件发生任何更改时都需要重新加载，当配置文件中upstream 的内容有变更时(例如 当部署的应用中的 endpoints 变更时)， nginx 的配置文件不会被重新加载</p>
-<h3 id="nginx-模型"><a href="#nginx-模型" class="headerlink" title="nginx 模型"></a>nginx 模型</h3><p>通常来说，k8s 控制器利用同步循环模式去检查控制器中资源的变更或者更新</p>
-<h3 id="构建-nginx-模型"><a href="#构建-nginx-模型" class="headerlink" title="构建 nginx 模型"></a>构建 nginx 模型</h3><h3 id="什么时候-reload-是必须的"><a href="#什么时候-reload-是必须的" class="headerlink" title="什么时候 reload 是必须的"></a>什么时候 reload 是必须的</h3><h3 id="避免-reload"><a href="#避免-reload" class="headerlink" title="避免 reload"></a>避免 reload</h3><h3 id="避免-reload-当-Endpoints-变更"><a href="#避免-reload-当-Endpoints-变更" class="headerlink" title="避免 reload 当 Endpoints 变更"></a>避免 reload 当 Endpoints 变更</h3><h3 id="避免错误配置导致中断"><a href="#避免错误配置导致中断" class="headerlink" title="避免错误配置导致中断"></a>避免错误配置导致中断</h3>
-          
+          ingress controller 如何工作这篇文档的目的是解释 nginx ingress 控制器是如何工作的，特别是 nginx 模型的构建以及为什么需要它
+Nginx 配置nginx ingress 控制器目标是组织 nginx 配置文件， 当 nginx 的配置文件发生任何更改时都需要重新
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2020/02/22/NGINX-Ingress-Controller-%E8%AE%BE%E8%AE%A1%E5%8E%9F%E7%90%86/#more" rel="contents">
+              Read more &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -486,21 +491,15 @@
       
         
           
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-          
+          Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in 
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2020/02/22/hello-world/#more" rel="contents">
+              Read more &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>

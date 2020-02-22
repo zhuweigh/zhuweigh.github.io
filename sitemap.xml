@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://yoursite.com/%E2%80%9Ctags%E2%80%9D/index.html</loc>
+    
+    <lastmod>2020-02-22T10:36:45.364Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/%E2%80%9Ccategories%E2%80%9D/index.html</loc>
+    
+    <lastmod>2020-02-22T10:36:29.966Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/%E2%80%9Cabout%E2%80%9D/index.html</loc>
+    
+    <lastmod>2020-02-22T10:36:15.135Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2020/02/22/NGINX-Ingress-Controller-%E8%AE%BE%E8%AE%A1%E5%8E%9F%E7%90%86/</loc>
+    
+    <lastmod>2020-02-22T09:00:00.027Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2020/02/22/hello-world/</loc>
+    
+    <lastmod>2020-02-22T04:39:37.898Z</lastmod>
+    
+  </url>
+  
+</urlset>
